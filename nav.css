@@ -1,0 +1,802 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior:smooth;
+}
+body{
+    background-image: url(image/2.jpg);
+    /* margin: 0px;
+    padding: 0px; */
+    overflow-x: hidden;
+}
+.ul1{
+    display: flex;
+    justify-content: center;
+    /* background-image: url(image/1.jpg);*/
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    overflow-x: hidden;
+}
+.ul1 li{
+    list-style-type: none;
+    margin: 20px;
+    
+}
+.ul1 li a{
+    text-decoration: none;
+    color: rgb(22, 23, 23);
+}
+.ul1 li img{
+    width: 100px;
+    margin-right: 100px;
+
+}
+#cv{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(9, 54, 75);
+    margin-left: 90px;
+}
+#cv a{
+    color: white;
+}
+#cv:hover{
+    background-color: beige;
+}
+#cv a:hover{
+    color: black !important;
+}
+.parent{
+    /* height: 400px; */
+    width: 100%;
+    padding: 50px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.child1{
+    /* background-color: brown; */
+    height: 200px;
+    margin: 50px;
+    width: 500px;
+    left: -60px;
+    margin-right: 15px;
+}
+.child2{
+    height: 200px;
+    width: 500px;
+    margin: 90px;
+    margin-top: -15px;
+}
+.child1 h2{
+    color: rgb(29, 29, 78);
+    font-size: 40px;
+    font-family: sans-serif;
+}
+#hello a{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(32, 44, 66);
+    color:white !important;
+    text-decoration: none;
+}
+#hello a:hover{
+    background-color: beige;
+    color: black !important;
+}
+#work{
+    color: blue;
+    /*margin-left: 30px;*/
+}
+.t1{
+    background-color: rgb(28, 28, 56);
+    width: 100%;
+    height: 200px;
+    overflow-x: hidden;
+}
+.im{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+.im img{
+    margin: 0px 14px 0px 14px;
+}
+#client{
+    color: white;
+    margin-top: 10px;
+}
+
+/* ====================================== */
+.dedication{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background-color: white;
+    overflow-x: hidden;
+}
+.dedication div{
+    padding: 20px;
+    border-left: 2px solid black;
+}
+.dedication div img{
+    width: 70px;
+    height: 50px;
+    margin-bottom: -20px;
+}
+#b1{
+    border: none;
+}
+.dedication div span{
+    font-size: 25px;
+    color: rgb(33, 33, 92);
+}
+.dedication div p{
+    color: gray;
+}
+
+@media(max-width:416px){
+    .dedication{
+        display: block;
+        justify-content: center;
+        padding: 80px;
+        background-color: white;
+        overflow-x: hidden;
+    }
+    .dedication div{
+        border:none;
+    }
+}
+
+/* ============================================ */
+.skills{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+    overflow-x: hidden;
+}
+#cont{
+    /* background-color: aquamarine; */
+    margin-left: 40px;
+    width: 350px;
+    height: 400px;
+    margin-right: 15px;
+}
+#cont span{
+    color: rgb(227, 68, 11);
+    font-size: 20px;
+    font-weight: bold;
+}
+#content{
+    background-image:url(image/1.jpg);
+    height: 400px;
+    width: 480px;
+}
+#cont h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(29, 29, 75);
+}
+#cont p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(93, 93, 223);
+    text-align: justify;
+}
+#content span{
+    border: 3px solid rgb(46, 45, 100);
+    margin: 10px;
+    color: rgb(30, 30, 80);
+    font-weight: bold;
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+}
+#tr{
+    /* background-color: red; */
+    margin-left: 40px;
+    width: 350px;
+    height: 250px;
+    padding: 30px;
+    margin-top: 50px;
+}
+@media(max-width:416px){
+    .skills{
+        background-color: white;
+        height: 400px;
+        display: block;
+        padding: 10px;
+        overflow-x: hidden;
+    }
+}
+/* ================================================================= */
+.follow{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    overflow-x: hidden;
+}
+#f1{
+    /* background-color: red; */
+    width: 33.3%;
+    padding: 50px;
+}
+.follow div h1{
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(37, 37, 70);
+    font-weight: bolder;
+}
+.follow div span{
+    color: rgb(69, 69, 111);
+    font-size: 30px;
+}
+@media(max-width:416px){
+    .follow{
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        display: block;
+        overflow-x: hidden;
+    }
+}
+/* ============================================================= */
+.about{
+    background-image: url(image/imgb.jpg);
+    width: 100%;
+    height: 600px;
+   display: flex;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   overflow-x: hidden;
+}
+#a1{
+    padding: 30px;
+}
+#a1 img{
+    margin: 10px 0px 0px 20px;
+}
+#a2{
+    /* background-color: rgb(244, 239, 239); */
+    width: 50%;
+    height: 500px;
+    margin: 50px 10px 0px 0px;
+}
+#a2 span{
+    color: rgb(227, 68, 11);
+    font-size: 20px;
+    font-weight: bold;
+}
+#a2 h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(29, 29, 75);
+}
+#a2 p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(93, 93, 223);
+    text-align: justify;
+}
+#a2 button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(30, 30, 71);
+    border: none;
+}
+#a2 button a{
+    color: white;
+    text-decoration: none;
+}
+#a2 button:hover{
+    background-color: white;
+}
+#a2 button a:hover{
+    color: black;
+    font-weight: bolder;
+}
+@media(max-width:416px){
+    .about{
+        background-image: url(image/imgb.jpg);
+        width: 100%;
+        height: 600px;
+       display: block;
+       border-top: 1px solid black;
+       border-bottom: 1px solid black;
+       overflow-x: hidden;
+    }
+}
+/* ================================================================= */
+.about2{
+    background-color: white;
+    /* height: 400px; */
+    display: flex;
+    overflow-x: hidden;
+}
+#ab img{
+    margin: 80px 20px 0px 30px;
+}
+#ab1{
+    /* background-color: red; */
+    height: 350px;
+    width: 53%;
+    margin: 40px 0px 20px 50px;
+}
+#ab1 h1{
+    margin-left: 20px;
+    color: rgb(20, 20, 58);
+    font-size: 25px;
+}
+#ab1 p{
+    margin-left: 20px;
+    color: grey;
+    text-align: justify;
+}
+.year{
+    border: 1px solid rgb(42, 42, 92);
+    width: 210px;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    position: absolute;
+    top: 2080px;
+    left: 40px;
+}
+#y1{
+    color: rgb(207, 147, 58);
+    font-weight: 700;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#y2{
+    color: rgb(105, 102, 144);
+    margin-left: 15px;
+}
+@media(max-width:416px){
+    .about2{
+        background-color: white;
+        /* height: 400px; */
+        display: block;
+        overflow-x: hidden;
+    }
+}
+/* ============================================================ */
+.five{
+    background-color: white;
+    height: 600px;
+    overflow-x: hidden;
+}
+#ig{
+    display: flex;
+}
+#fiveimg1{
+    border: 2px solid rgb(11, 11, 49);
+}
+#fiveimg{
+    margin-left: 30px;
+    border: 2px solid rgb(11, 11, 49);
+}
+#ig1{
+    /* margin-top: 20px; */
+    display: flex;
+    margin-top: 20px;
+}
+#p3{
+    /* background-color: brown; */
+    width: 320px;
+    height: 300px;
+    padding: 0px 10px 0px 0px;
+}
+.five div img{
+    border: 2px solid  rgb(11, 11, 49);
+}
+.five div img:hover{
+    scale: 0.9;
+    transition:scale 0.5s ease-out;
+}
+@media(max-width:416px){
+    .five{
+        background-color: white;
+        height: 600px;
+        display: block;
+        overflow-x: hidden;
+    }
+}
+/* =============faq=========== */
+.fq{
+    background-color: white;
+    height: 650px;
+    overflow-x: hidden;
+}
+.faq1{
+    width: 700px;
+    height: 15px;
+    background-color: rgb(5, 5, 65);
+    padding: 30px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.faq1 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.FAQ{
+    color: rgb(189, 81, 23);
+    font-weight: bolder;
+}
+.que{
+    color: rgb(17, 17, 53);
+    font-family: arial;
+}
+.faq1a {
+width: 700px;
+height: 15px;
+background-color: rgb(8, 8, 58);
+padding: 30px;
+color: aliceblue;
+font-size: 15px;
+margin-top: 10px;
+display: none;
+}
+
+#check1:checked~.faq1a{
+    display: block;
+    transition: display 5s ease-out;
+}
+.project{
+    width: 700px;
+    height: 15px;
+    background-color: rgb(5, 5, 65);
+    padding: 30px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.project span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.project1 {
+width: 700px;
+height: 15px;
+background-color: rgb(8, 8, 58);
+padding: 30px;
+color: aliceblue;
+font-size: 15px;
+margin-top: 10px;
+display: none;
+}
+
+#check11:checked~.project1{
+    display: block;
+    transition: display 5s ease-out;
+}
+
+.charge{
+    width: 700px;
+    height: 15px;
+    background-color: rgb(5, 5, 65);
+    padding: 30px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.charge span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.charge1 {
+width: 700px;
+height: 15px;
+background-color: rgb(8, 8, 58);
+padding: 30px;
+color: aliceblue;
+font-size: 15px;
+margin-top: 10px;
+display: none;
+}
+
+#check111:checked~.charge1{
+    display: block;
+    transition: display 5s ease-out;
+}
+
+
+.time{
+    width: 700px;
+    height: 15px;
+    background-color: rgb(5, 5, 65);
+    padding: 30px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.time span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.time1 {
+width: 700px;
+height: 15px;
+background-color: rgb(8, 8, 58);
+padding: 30px;
+color: aliceblue;
+font-size: 15px;
+margin-top: 10px;
+display: none;
+}
+
+#check1111:checked~.time1{
+    display: block;
+    transition: display 5s ease-out;
+}
+.offer{
+    width: 700px;
+    height: 15px;
+    background-color: rgb(5, 5, 65);
+    padding: 30px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.offer span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.offer1 {
+width: 700px;
+height: 15px;
+background-color: rgb(8, 8, 58);
+padding: 30px;
+color: aliceblue;
+font-size: 15px;
+margin-top: 10px;
+display: none;
+}
+
+#check5:checked~.offer1{
+    display: block;
+    transition: display 5s ease-out;
+}
+.free{
+    height: 300px;
+    overflow-x: hidden;
+}
+.free h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgb(38, 38, 105);
+}
+.free button{
+    height: 40px;
+    width: 180px;
+    background-color: white;
+    border: 2px solid rgb(9, 9, 60);
+}
+.free a button{
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(18, 92, 92);
+}
+.free a button:hover{
+    background-color: rgb(15, 15, 54);
+    color: white;
+}
+.blog{
+    height: 600px;
+    background-color: white;   
+    overflow-x: hidden; 
+}
+.blog h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgb(38, 38, 105);
+    margin-left: 10px;
+}
+.blog div{
+    color: rgb(251, 88, 0);
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.b1{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    overflow-x: hidden;
+}
+#r1{
+    /* background-color: brown; */
+    width: 320px;
+    height: 300px;
+    padding: 0px 10px 0px 0px;
+}
+#r1 img{
+    border-radius: 100px;
+    margin-left: 10px;
+    border: 2px solid rgb(25, 25, 66);
+}
+#r1 h3{
+    color: rgb(42, 42, 115);
+    margin-left: 25px;
+}
+#r1 h3:hover{
+    color: rgb(236, 83, 18);
+}
+#r1 hr{
+    margin-left: 15px;
+}
+#r1 h5{
+    margin-left: 10px;
+    color: rgb(125, 125, 218);
+}
+.blog div img:hover{
+    scale: 0.9;
+    transition:scale 0.5s ease-out;
+}
+.last{
+    height: 600px;
+    display: flex;
+    background-image: url(image/bkg.jpg);
+    overflow-x: hidden;
+}
+.last div span{
+    margin-left: 15px;
+    color: rgb(248, 87, 0);
+    font-weight: bolder;
+}
+.last div h1{
+    margin-left: 15px;
+    font-family: arial;
+    font-size: 40px;
+    color: white;
+}
+.last div h4{
+    margin-left: 15px;
+    color: rgb(171, 162, 162);
+}
+.last div h2{
+    margin-left: 20px;
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.last div h2:hover{
+    text-decoration: none;
+}
+#l1{
+    border: 1px solid transparent;
+    width: 400px;
+    height: 100px;
+    margin-left: 25px;
+    background-color: rgb(200, 199, 197);
+}
+#l1 img{
+    width: 120px;
+    padding: 10px;
+}
+#l1 div{
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+}
+#l2{
+    background-color: white;
+    height: 400px;
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 40px;
+}
+#l2 input{
+    width: 300px;
+    padding: 15px;
+    border: 2px solid rgb(13, 13, 41);
+}
+#l2 textarea{
+    width: 300px;
+    padding: 15px;
+    border: 2px solid rgb(13, 13, 41);
+}
+#l2 a button{
+    width: 330px;
+    padding: 15px;
+    border: 2px solid rgb(13, 13, 41);
+    background-color: aqua;
+    color: rgb(26, 26, 65);
+}
+#l2 a button:hover{
+    background-color: rgb(18, 18, 61);
+    color: white;
+}
+#svg{
+    margin-left: 40px;
+}
+
+/* =================media query=================== */
+.tog{
+    /* display: none; */
+    margin-left: 180px;
+    position: absolute;
+    top: 10px;
+}
+.tog i{
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img1{
+    width: 80px;
+    display: none;
+    margin: 20px;
+}
+@media(max-width:416px){
+    .img1{
+        display: block;
+    }
+
+    .ul1{
+        display: none;
+    }
+    .tog{
+        display: block;
+    }
+    .ul1 li img{
+        display: none;
+    }
+    #cv{
+        display: none;
+    }
+    #toggle:checked~.ul1{
+        display: block;
+        position: absolute;
+        background-color: white;
+        z-index: 100;
+        top: 70px;
+        width: 100%;
+    }
+    .parent{
+        /* height: 400px; */
+        width: 100%;
+        padding: 10px;
+        /* background-color: white; */
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    .child1{
+    /* background-color: brown; */
+    height: 200px;
+    margin: 50px;
+    width: 500px;
+    left: -60px;
+    margin-right: 15px;
+}
+.child2{
+    height: 200px;
+    width: 500px;
+    margin: 90px;
+    margin-top: -15px;
+}
+}
